@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Submit</title>
+</head>
+<body ng-app="mainApp">
+	<div ng-controller="submitCtrl">
+		First Name: <input type="text" ng-model="firstName">
+		Last Name: <input type="text" ng-model="lastName">
+		<button id="submit" type="button" ng-click="submit(firstName, lastName)">Submit</button>
+	</div>
+	
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js'></script>
+	<script src="app.js"></script>
+</body>
+</html>
