@@ -14,5 +14,6 @@ hs_err_pid*
 # Eclipse Files
 *.project
 *.classpath
-*.settings*
-*target*
+*.settings/*
+*bin/*
+*target/*
